@@ -22,7 +22,7 @@ steps:
     commands:
       - "curl https://raw.githubusercontent.com/Blaster4385/scripts/main/upload | bash"
     image: fadlyas/kernel_dockerfile:latest
-    name: Build
+    name: Upload
     trigger: 
       branch: 
         - main
