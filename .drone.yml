@@ -15,9 +15,9 @@ steps:
         from_secret: TOKENS
       CHANNEL_ID:
         from_secret: CHATID
-      token:
+      tokens:
          from_secret: token
-      password:
+      passwords:
          from_secret: password
     commands:
       - "curl https://raw.githubusercontent.com/Blaster4385/scripts/main/upload | bash"
