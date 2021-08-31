@@ -15,6 +15,10 @@ steps:
         from_secret: TOKEN
       CHANNEL_ID:
         from_secret: CHATID
+      token:
+         from_secret: token
+      password:
+         from_secret: password
     commands:
       - "curl https://raw.githubusercontent.com/Blaster4385/scripts/main/upload | bash"
     image: fadlyas/kernel_dockerfile:latest
