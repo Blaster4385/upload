@@ -12,7 +12,7 @@ steps:
   - 
     environment: 
       TG_TOKEN: 
-        from_secret: TOKEN
+        from_secret: TOKENS
       CHANNEL_ID:
         from_secret: CHATID
       token:
