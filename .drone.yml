@@ -15,7 +15,7 @@ steps:
         from_secret: TOKENS
       CHANNEL_ID:
         from_secret: CHATID
-      tokens:
+      tokensa:
          from_secret: token
       passwords:
          from_secret: password
